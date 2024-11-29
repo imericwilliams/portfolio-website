@@ -9,7 +9,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io"
 const nav_items = [
     {
         name: "Home",
-        href: "/",
+        href: "#home-section",
     },
     {
         name: "About",
