@@ -5,7 +5,7 @@ import Image from "next/image";
 const IntroSection = () => {
   return (
     <section id="home-section">
-        <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left space-x-10">
+        <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left w-full md:w-auto">
           <Link
             href={"https://www.linkedin.com/in/imericwilliams/"}>
             <Image 
