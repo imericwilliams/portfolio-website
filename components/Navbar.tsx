@@ -36,7 +36,7 @@ export default function Navbar() {
                     </Link>
                     <div className="md:hidden">
                     <button
-                      className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                      className="p-2 rounded-md outline-none focus:foreground-color focus:border"
                       onClick={() => setNavbar(!navbar)}
                     >
                         {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -53,7 +53,7 @@ export default function Navbar() {
                         <Link
                         key={navitem.name}
                         href={navitem.href}
-                        className={"block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer text-right font-bold text-xl"}
+                        className={"block lg:inline-block cursor-pointer text-right font-bold text-xl"}
                         onClick={() => setNavbar(!navbar)}
                         >
                             <p>{navitem.name}

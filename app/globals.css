@@ -18,8 +18,16 @@
   background-color: var(--background);
 }
 
+.foreground-color {
+  color: var(--foreground);
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.scroll-down-style {
+  color: var(--foreground);
 }
 
 body {

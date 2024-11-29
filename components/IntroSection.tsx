@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import ScrollToNext from "./ScrollToNext";
 
 const IntroSection = () => {
   return (
     <section id="home-section">
-        <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left w-full md:w-auto">
+        <div className="flex flex-col text-center items-center justify-center my-auto py-auto sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left w-full md:w-auto">
           <Link
             href={"https://www.linkedin.com/in/imericwilliams/"}>
             <Image 
@@ -21,8 +22,11 @@ const IntroSection = () => {
             <p className="text-2xl"><b>Software Engineer</b> based in Tucson, AZ. Working towards creating software that enhances user experience.</p>
           </div>
         </div>
+        <div className="hidden md:flex justify-center items-center mt-8">
+          <ScrollToNext />
+        </div>
       </section>
   )
 }
 
-export default IntroSection
+export default IntroSection;

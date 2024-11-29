@@ -1,5 +1,25 @@
 ### FIXME: Update README.md once site is completed!
 
+# Resources:
+
+• Build and Deploy a Responsive Personal Portfolio Website Using Next.js 13, Tailwind CSS and Vercel (YouTube Video)
+https://youtu.be/7gnVzj_nMJw?si=3VWQ0Oe25i72RrUR
+
+• tailwindcss-and-nextjs-portfolio (GitHub repo associated with video above)
+https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio/tree/final
+
+• Start building with Next.js (Next.js Guide)
+https://nextjs.org/learn
+
+• Same Page Navigation and Scroll to Top With NextJs (Medium Article)
+https://medium.com/@ojogbomichael/same-page-navigation-with-nextjs-bb99cccfda11
+
+• npm (to install dependencies)
+https://www.npmjs.com/
+
+• Tailwind CSS (Documentation)
+https://tailwindcss.com/docs/installation
+
 <!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

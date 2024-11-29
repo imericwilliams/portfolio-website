@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-
+import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Eric Williams",
   description: "Software Engineer Portfolio Website for Eric Williams",
@@ -18,7 +18,8 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-        {/* Need to add a Footer */}
+        {/* #FIXME: Need to add a Footer */}
+        <Footer />
       </body>
     </html>
   );
