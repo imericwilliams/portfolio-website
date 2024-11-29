@@ -22,7 +22,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects-section">
+    <section id="projects-section" className="p-40 pb-20">
         <div>
           <h1 className="my-10 text-center font-bold text-4xl">Projects</h1>
           <div className="flex flex-col space-y-28">
