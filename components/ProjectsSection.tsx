@@ -28,7 +28,7 @@ const ProjectsSection = () => {
           <div className="flex flex-col space-y-28">
             {projects.map((project) => {
               return (
-                <div key="" className="flex flex-col md:flex-row md:space-x-10">
+                <div key={project.name} className="flex flex-col md:flex-row md:space-x-10">
                   <div className=" md:w-1/2">
                     <Link 
                       href={project.link}>
