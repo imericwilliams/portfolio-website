@@ -22,7 +22,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects-section" className="p-6 md:p-40">
+    <section id="projects-section" className="p-6 md:p-40 top-0">
         <div>
           <h1 className="my-20 md:my-10 text-center font-bold text-4xl"><span className="underline underline-offset-8 decoration-accent-color decoration-4">Projects</span></h1>
           <div className="flex flex-col space-y-28">
