@@ -8,7 +8,7 @@ const Footer = () => {
         <hr className="w-full h-0.5 mx-auto mt-8 bg-accent-color bg-opacity-60 border-0"></hr>
         <div className="mx-auto  p-4 flex flex-col text-center text-accent-color md:flex-row md:justify-between">
             <div className="flex flex-row items-center justify-center space-x-1 text-accent-color text-opacity-60">
-          <a href="/">© 2024 Eric Williams</a>
+          <Link href="/">© 2024 Eric Williams</Link>
             </div>
             <div className="flex flex-row items-center justify-center space-x-2 mb-1">
               <Link href={"https://github.com/imericwilliams"} target="_blank">

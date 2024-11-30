@@ -3,7 +3,6 @@
 import React from 'react';
 import { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 
 const nav_items = [
