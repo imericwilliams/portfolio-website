@@ -2,10 +2,7 @@
 
 # Resources:
 
-• Build and Deploy a Responsive Personal Portfolio Website Using Next.js 13, Tailwind CSS and Vercel (YouTube Video)
-https://youtu.be/7gnVzj_nMJw?si=3VWQ0Oe25i72RrUR
-
-• tailwindcss-and-nextjs-portfolio (GitHub repo associated with video above)
+• tailwindcss-and-nextjs-portfolio (GitHub repo)
 https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio/tree/final
 
 • Start building with Next.js (Next.js Guide)
