@@ -5,14 +5,15 @@ import ScrollToNext from "./ScrollToNext";
 
 const IntroSection = () => {
   return (
-    <section>
-        <div className="flex flex-col text-center items-center justify-center py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+    <section className="w-full flex flex-col items-center justify-center 
+    p-4 md:p-8 lg:p-12 overflow-hidden">
+        <div className="flex flex-col text-center items-center justify-center sm:py-16 md:pt-32 md:pb-16 md:flex-row md:space-x-4 md:text-left">
           <Link
             href={"https://www.linkedin.com/in/imericwilliams/"}>
             <Image 
               src="/headshot-suit.jpg"
-              width={400}
-              height={400}
+              width={325}
+              height={325}
               className="rounded-full shadow-2xl hover:-translate-y-3 transition-transform cursor-pointer"
               alt=""
           />
@@ -22,7 +23,7 @@ const IntroSection = () => {
             <p className="text-2xl"><span className="font-semibold text-accent-color">Software Engineer</span> based in Tucson, AZ. Working towards creating software that enhances user experience.</p>
           </div>
         </div>
-        <div className="hidden md:flex flex flex-row items-center text-center justify-center mt-2">
+        <div className="hidden md:flex flex flex-row items-center text-center justify-center">
           <ScrollToNext />
         </div>
       </section>

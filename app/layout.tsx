@@ -15,6 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="viewport" content="width=device-width, initial-scale=2.0" />
       <body className="pt-[72px]">
         <Navbar />
         {children}
