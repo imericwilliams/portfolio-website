@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link href="/">
                       <div className="container flex items-center space-x-2">
-                        <h2 className="text-3xl font-bold text-stretch">Eric Williams</h2>
+                        <h2 className="text-3xl font-bold text-stretch hover:underline hover:underline-offset-8 hover:decoration-accent-color hover:decoration-2">Eric Williams</h2>
                       </div>
                     </Link>
                     <div className="md:hidden">
@@ -52,7 +52,7 @@ export default function Navbar() {
                         <Link
                         key={navitem.name}
                         href={navitem.href}
-                        className={"block lg:inline-block cursor-pointer text-right font-bold text-xl"}
+                        className={"block lg:inline-block cursor-pointer text-right font-bold text-xl hover:underline hover:underline-offset-8 hover:decoration-accent-color hover:decoration-2"}
                         onClick={() => setNavbar(!navbar)}
                         >
                             <p>{navitem.name}
