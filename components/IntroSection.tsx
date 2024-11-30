@@ -5,7 +5,7 @@ import ScrollToNext from "./ScrollToNext";
 
 const IntroSection = () => {
   return (
-    <section className="p-6 md:p-40">
+    <section>
         <div className="flex flex-col text-center items-center justify-center my-auto py-auto sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left w-full md:w-auto">
           <Link
             href={"https://www.linkedin.com/in/imericwilliams/"}>
