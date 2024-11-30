@@ -15,10 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="pt-[72px]">
         <Navbar />
         {children}
-        {/* #FIXME: Need to add a Footer */}
         <Footer />
       </body>
     </html>

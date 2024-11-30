@@ -5,7 +5,7 @@ import ScrollToNext from "./ScrollToNext";
 
 const IntroSection = () => {
   return (
-    <section id="home-section">
+    <section>
         <div className="flex flex-col text-center items-center justify-center my-auto py-auto sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left w-full md:w-auto">
           <Link
             href={"https://www.linkedin.com/in/imericwilliams/"}>
@@ -17,12 +17,12 @@ const IntroSection = () => {
               alt=""
           />
           </Link>
-          <div className="md:mt-2 md:w-3/5 p-8">
-            <h1 className="mb-8 font-bold text-6xl">Hi, I&#39;m Eric!</h1>
+          <div className="md:mt-2 md:w-3/5 p-6">
+            <h1 className="mb-6 font-bold text-5xl">Hi, I&#39;m Eric!</h1>
             <p className="text-2xl"><b>Software Engineer</b> based in Tucson, AZ. Working towards creating software that enhances user experience.</p>
           </div>
         </div>
-        <div className="hidden md:flex justify-center items-center mt-8">
+        <div className="hidden md:flex flex flex-row items-center text-center justify-center mt-2">
           <ScrollToNext />
         </div>
       </section>

@@ -13,10 +13,10 @@ const skills = [
 
 const AboutSection = () => {
   return (
-    <div id="about-section" className="p-40 pb-20">
+    <div id="about-section" className="p-6 md:p-40">
     <section>
         <div>
-          <h1 className="my-10 text-center font-bold text-4xl">About Me</h1>
+          <h1 className="my-20 md:my-10 text-center font-bold text-4xl">About Me</h1>
         </div>
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left w-full md:w-auto">
           <div className="md:w-1/2">
@@ -52,4 +52,4 @@ const AboutSection = () => {
   )
 }
 
-export default AboutSection
+export default AboutSection;

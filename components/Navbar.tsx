@@ -9,7 +9,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io"
 const nav_items = [
     {
         name: "Home",
-        href: "#home-section",
+        href: "#",
     },
     {
         name: "About",
@@ -21,10 +21,9 @@ const nav_items = [
     },
 ];
 export default function Navbar() {
-    const pathname = usePathname();
     const [navbar, setNavbar] = useState(false)
     return (
-        <div className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-background-color">
+        <div className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-background-color">
             {/* Navbar */}
             <div className="justify-between md:items-center md:flex">
                 {/* Left side of navbar */}
