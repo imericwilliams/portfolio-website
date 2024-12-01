@@ -4,7 +4,14 @@ Visit the site here → https://www.ericwilliams.io/
 
 ### Demo
 
-![Desktop Version] (public/desktop.gif) ![Mobile Version] (public/mobile.gif)
+(Desktop Version)
+
+![desktop](https://github.com/user-attachments/assets/f2fd922e-8d79-4185-ab6d-81b6446abd9f)
+
+(Mobile Version)
+
+![mobile](https://github.com/user-attachments/assets/c26e1379-530d-4507-ad5f-ffdfb893e289)
+
 
 ### Sections:
 
