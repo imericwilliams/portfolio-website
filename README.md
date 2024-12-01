@@ -1,6 +1,10 @@
 # Software Engineer Portfolio Website 💻
 
-<!-- Include Desktop and Mobile Version Gif of Website -->
+Visit the site here → https://www.ericwilliams.io/
+
+### Demo
+
+![Desktop Version] (public/desktop.gif) ![Mobile Version] (public/mobile.gif)
 
 ### Sections:
 
